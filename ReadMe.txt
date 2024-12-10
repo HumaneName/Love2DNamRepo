@@ -1,0 +1,1 @@
+-- This is meant for studying Lua for the engine Löve2D. I am not a expirienced developer.
