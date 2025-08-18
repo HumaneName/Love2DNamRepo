@@ -10,4 +10,10 @@ end
 
 function love.draw()
     ball.draw()
+    debug()
+end
+
+function debug()
+    love.graphics.print("dx"...dx,10,10)
+    love.graphics.print("dy"...dy,10,30)
 end
