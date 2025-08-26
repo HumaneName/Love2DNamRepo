@@ -13,6 +13,7 @@ function ball.update(dt)
 end
 
 function ball.draw()
+    love.graphics.color(1,0,0)
     love.graphics.circle("fill",bx,by,15)
 end
 
@@ -32,6 +33,8 @@ function collision()
         by=0
         bdy=-bdy
     end
+
+    
 end
 
 return ball
