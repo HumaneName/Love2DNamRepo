@@ -1,6 +1,7 @@
 local ball=require("assets/ball")
 
 function love.load()
+    love.graphics.setBackgroundColor(.1,.1,.1)
     ball.load()
 end
 
